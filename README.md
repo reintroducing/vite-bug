@@ -18,8 +18,8 @@ When you have an external npm module (in this case, @reintroducing/my-package) t
 1. Run `npm run dev`. Observe the Test button and its blue background.
 1. Inspect the blue button and in dev tools verify that it has the class `Button-module-root` as expected.
 1. Stop the dev server and run `npm run preview`. Observe the Test button and the missing blue background.
-2. Inspect the button and in dev tools verify that it no longer has the class `Button-module-root` as expected.
-3. In the generated `dist`, open `assets/index[hash].js` and search for `Button-module-root` to verify it is no longer there.
-4. In the generated `dist`, open `assets/index[hash].css` and search for `Button-module-root` to verify it is there.
+1. Inspect the button and in dev tools verify that it no longer has the class `Button-module-root` as expected.
+1. In the generated `dist`, open `assets/index[hash].js` and search for `Button-module-root` to verify it is no longer there.
+1. In the generated `dist`, open `assets/index[hash].css` and search for `Button-module-root` to verify it is there.
 
 The code for the external `Button` is super simple and can be found [here](https://github.com/reintroducing/my-package).
