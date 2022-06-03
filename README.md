@@ -22,3 +22,4 @@ When you have an external npm module (in this case, @reintroducing/my-package) t
 3. In the generated `dist`, open `assets/index[hash].js` and search for `Button-module-root` to verify it is no longer there.
 4. In the generated `dist`, open `assets/index[hash].css` and search for `Button-module-root` to verify it is there.
 
+The code for the external `Button` is super simple and can be found [here](https://github.com/reintroducing/my-package).
